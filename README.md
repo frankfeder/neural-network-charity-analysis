@@ -13,9 +13,9 @@ This script creates and attempts to optimize a neural net model to predict wheth
 
 ### Compiling, Training, Evaluating the Model
 
-![](Resources/modelss.png)
+![](Resources/model_ss.png)
 
-![](Resources/modelss2.png)
+![](Resources/model_ss2.png)
 
 * How many neurons, layers, and activation functions were selected?
 	* For the most successful model, two layers were used with 8 and 5 neurons respectively. Testing was done to compare the sigmoid and tanh activation functions, but there was no clear winner that arose from those tests.
