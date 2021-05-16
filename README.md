@@ -12,6 +12,11 @@ This script creates and attempts to optimize a neural net model to predict wheth
 	* Some variables we can remove outright, including "status" which doesn't describe the applicant themselves whatsoever. EIN and Name are also extraneous identifiers, which should not have any impact on the success of the recipient, so we can remove those as well.
 
 ### Compiling, Training, Evaluating the Model
+
+![](Resources/modelss.png)
+
+![](Resources/modelss2.png)
+
 * How many neurons, layers, and activation functions were selected?
 	* For the most successful model, two layers were used with 8 and 5 neurons respectively. Testing was done to compare the sigmoid and tanh activation functions, but there was no clear winner that arose from those tests.
 * Did the model break the 75% threshhold?
